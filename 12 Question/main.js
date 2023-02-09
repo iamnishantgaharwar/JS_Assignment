@@ -5,4 +5,6 @@
 
 const today = new Date;
 
-console.log(today.);
+console.log(today.getFullYear(),"-",today.getMonth() + 1,"-",today.getDate(), today.getHours(),":",today.getMinutes());
+console.log(today.getDate(),"-",today.getMonth() + 1,"-",today.getFullYear(), today.getHours(),":",today.getMinutes());
+console.log(today.getDate(),"/",today.getMonth() + 1,"/",today.getFullYear(), today.getHours(),":",today.getMinutes());
